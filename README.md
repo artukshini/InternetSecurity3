@@ -1,3 +1,41 @@
 # InternetSecurity3
 Web Stress Tester
 
+Installation steps on Windows 10:
+
+1.Install Go language on your machine if you don't have it installed already.
+
+2.Download the code from the Github repository: https://github.com/artukshini/InternetSecurity3
+
+3.Extract the downloaded code to a directory.
+
+4.Open Command Prompt and navigate to the directory where you extracted the code.
+
+5.Run the following command to build the tool: go build
+
+6.After the build is completed, run the following command to start the tool: Stresstest <URL> <COUNT>
+  
+7.Replace <URL> with the target URL you want to stress test and <COUNT> with the number of requests you want to send to the target URL.
+  
+  
+  
+  ![Screenshot (92)](https://user-images.githubusercontent.com/94797611/215938843-0db203c7-5a73-4666-a9c5-9c867e8d9da0.png)
+
+  
+Installation steps on Kali Linux:
+  
+1.Open the terminal in Kali Linux.
+  
+2.Clone the repository by using the following command: git clone https://github.com/artukshini/InternetSecurity3
+  
+3.Go to the Stresstest directory by using the following command: cd Stresstest
+  
+4.Compile the Go code by using the following command: go build
+  
+5.Execute the Stresstest binary with the following command: ./Stresstest <URL> <COUNT>
+
+6.Replace <URL> with the target URL you want to stress test and <COUNT> with the number of requests you want to send to the target URL.
+
+  
+
+
