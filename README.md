@@ -1,5 +1,5 @@
 # Internet Security Project 3
-# Web Stress Tester
+# Web Stress Test
 This Web Stress Tester is coded in Go Language and the main purpose of this project is only for EDUCATIONAL PURPOSES and no harm is meant for anyone!
 
 
