@@ -23,7 +23,7 @@ Installation steps on Windows 10:
   
   
   
-  ![Screenshot (92)](https://user-images.githubusercontent.com/94797611/215938843-0db203c7-5a73-4666-a9c5-9c867e8d9da0.png)
+
 
   
 Installation steps on Kali Linux:
