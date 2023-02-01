@@ -36,3 +36,36 @@ func MainStress(target string, count string) {
 	fmt.Println(sttime + " - " + time.Now().Format("15:04:05"))
 
 }
+
+func stress(target string, count int) {
+
+	for i := 0; i <= count; i++ {
+
+		if all >= count {
+			break
+		}
+
+		req, err := http.NewRequest("GET", target, nil)
+		transport := &http.Transport{
+			TLSClientConfig: &tls.Config{InsecureSkipVerify: true},
+		}
+
+		client := &http.Client{
+			Timeout:   10 * time.Second,
+			Transport: transport,
+		}
+
+		_, err = client.Do(req)
+
+		all++
+		if err != nil {
+			errors++
+		} else {
+			success++
+		}
+
+		fmt.Printf("\rSent: " + strconv.Itoa(all))
+
+	}
+	wg.Done()
+}
