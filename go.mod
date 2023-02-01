@@ -1,2 +1,2 @@
-module github.com/artukshini/InternetSecurity3
+module github.com/artukshini/WebStressTest
 go 1.19
