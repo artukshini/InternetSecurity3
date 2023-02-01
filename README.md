@@ -23,6 +23,10 @@ Installation steps on Windows 10:
   
   
   
+  
+  
+  
+  
 
 
   
