@@ -28,3 +28,11 @@ func MainStress(target string, count string) {
 		go stress(target, dcount)
 		go stress(target, dcount)
 	}
+	
+	wg.Wait()
+
+	println()
+	println("Success: " + strconv.Itoa(success) + "\nErrors: " + strconv.Itoa(errors))
+	fmt.Println(sttime + " - " + time.Now().Format("15:04:05"))
+
+}
