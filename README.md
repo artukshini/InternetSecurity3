@@ -21,15 +21,6 @@ Installation steps on Windows 10:
   
 7.Replace <URL> with the target URL you want to stress test and <COUNT> with the number of requests you want to send to the target URL.
   
-  
-  
-  
-  
-  
-  
-
-
-  
 Installation steps on Kali Linux:
   
 1.Open the terminal in Kali Linux.
