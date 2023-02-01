@@ -1,0 +1,14 @@
+package app
+
+import (
+	"crypto/tls"
+	"fmt"
+	"net/http"
+	"strconv"
+	"sync"
+	"time"
+)
+
+var success int
+var all int
+var errors int
