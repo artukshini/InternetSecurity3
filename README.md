@@ -1,11 +1,11 @@
-# InternetSecurity3
-Web Stress Tester
+# Internet Security Project 3
+# Web Stress Tester
 This Web Stress Tester is coded in Go Language and the main purpose of this project is only for EDUCATIONAL PURPOSES and no harm is meant for anyone!
 
 
 
 
-   Installation steps on Windows 10:
+  # Installation steps on Windows 10:
 
     1.Install Go language on your machine if you don't have it installed already.
 
@@ -24,7 +24,7 @@ This Web Stress Tester is coded in Go Language and the main purpose of this proj
   
   
   
-   Installation steps on Kali Linux:
+   # Installation steps on Kali Linux:
   
     1.Open the terminal in Kali Linux.
   
