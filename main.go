@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/artukshini/InternetSecurity3/app"
+	"github.com/artukshini/WebStressTest/app"
 	)
 
 func help() {
