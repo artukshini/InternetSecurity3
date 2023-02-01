@@ -5,7 +5,7 @@ This Web Stress Tester is coded in Go Language and the main purpose of this proj
 
 
 
-Installation steps on Windows 10:
+                    Installation steps on Windows 10:
 
 1.Install Go language on your machine if you don't have it installed already.
 
@@ -22,10 +22,7 @@ Installation steps on Windows 10:
 7.Replace <URL> with the target URL you want to stress test and <COUNT> with the number of requests you want to send to the target URL.
   
   
-  
-  
-  
-Installation steps on Kali Linux:
+                    Installation steps on Kali Linux:
   
 1.Open the terminal in Kali Linux.
   
