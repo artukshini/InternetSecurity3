@@ -1,5 +1,9 @@
 # InternetSecurity3
 Web Stress Tester
+This Web Stress Tester is coded in Go Language and the main purpose of this project is only for EDUCATIONAL PURPOSES and no harm is meant for anyone!
+
+
+
 
 Installation steps on Windows 10:
 
